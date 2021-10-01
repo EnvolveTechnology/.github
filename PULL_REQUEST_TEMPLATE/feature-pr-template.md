@@ -1,4 +1,4 @@
-## Describe the contents of the pull request
+> ## Describe the contents of the pull request
 > Give a short one or two sentance description of the 
 
 ## New Features
@@ -10,7 +10,7 @@
 ## Commits
 > Highlight any specific commits that should be investigated by the reviewer 
 
-> * <commit-tag> - Description of the commit
+> * "commit-tag>" - Description of the commit
 
 ## Specific Feedback Requested
 > Are there any points that you want specific feedback on?
