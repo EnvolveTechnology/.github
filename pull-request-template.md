@@ -1,5 +1,5 @@
 > ## Describe the contents of the pull request
-> Give a short one or two sentance description of the 
+> Give a short one or two sentance description of the pr.
 
 ## New Features
 > Provide a list of new features that are included
