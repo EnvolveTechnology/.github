@@ -1,5 +1,10 @@
 > ## Describe the contents of the pull request
 > Give a short one or two sentance description of the pr.
+>
+> If you this is a long PR and you have completed a list of tasks you can consider using a task list
+> * [x] Task 1 
+> * [ ] Task 2
+> * [ ] Task 3
 
 ## New Features
 > Provide a list of new features that are included
