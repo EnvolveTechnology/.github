@@ -29,9 +29,10 @@
 > * [ ] test-envolve-03
 > * [ ] test-envolve-04
 
+## Commits (Optional)
 > Highlight any specific commits that should be investigated by the reviewer 
 
-> * "commit-tag>" - Description of the commit
+> * "<commit-tag>" - Description of the commit
 
 ## Specific Feedback Requested
 > Are there any points that you want specific feedback on?
