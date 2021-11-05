@@ -29,6 +29,10 @@
 > * [ ] test-envolve-03
 > * [ ] test-envolve-04
 
+## Updates to the UI (Delete if N/A)
+> Provide screenshots showing any changes to the UI
+> Not every repo has a UI so delete this section if it is not applicable
+
 ## Commits (Optional)
 > Highlight any specific commits that should be investigated by the reviewer 
 
