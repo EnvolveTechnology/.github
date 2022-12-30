@@ -1,0 +1,31 @@
+# Notifies the #ci-notifications channel whenever changes are merged with 
+# the develop, main, master or development branches in any of our active 
+# repositories.
+# 
+# You will require the webhook URL to add this notification to SemaphoreCI. 
+# Speak with one of the collaborators of the SemaphoreCI Slack App to get 
+# this information.
+# 
+# https://docs.semaphoreci.com/essentials/slack-notifications/
+apiVersion: v1alpha
+kind: Notification
+metadata:
+  name: release-cycle-notifications
+spec:
+  rules:
+    - name: "On development & production branches"
+      filter:
+        projects:
+          - /.*/
+        branches:
+          - development
+          - develop
+          - master
+          - main
+        results:
+          - passed
+      notify:
+        slack:
+          endpoint: https://hooks.slack.com/services/XXXXXXX/YYYYYYYYY
+          channels:
+            - "#ci-notifications"
